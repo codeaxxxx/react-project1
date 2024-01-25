@@ -1,0 +1,104 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+  background-color: #047C7B;
+  
+}
+
+.logo {
+  width: 85px;
+  height: auto;
+  margin: 10px 20px;
+}
+
+.navbar__links {
+  display: flex;
+  gap: 2rem;
+}
+
+.link {
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: white;
+  border-bottom: 2px solid transparent;
+}
+
+.link:hover {
+  color: #F7DC8B;
+  border-bottom: 2px solid #F7DC8B;
+  transition: 0.5s ease;
+}
+.active-link {
+  color: #F7DC8B;
+  border-bottom: 2px solid #F7DC8B;
+}
+
+.navbar__button {
+  margin: 10px 20px;
+  padding:5px 10px;
+ 
+  background-color: #F7DC8B;
+  border: none;
+  border-radius:5px;
+  cursor: pointer;
+}
+
+
+.book-icon{
+  display: none;
+}
+
+.link-book {
+ text-decoration: none;
+ color: #047C7B;
+}
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  .navbar {
+   
+    justify-content: space-between;
+    padding: 0;
+  }
+  .logo {
+    width: 50px; 
+  }
+  
+  .navbar__links {
+    display: flex;
+    gap: 1rem;
+    font-size: 12px;
+  }
+  .line{
+    display: none;
+  }
+  .book-icon{
+    display: block;
+  }
+  .navbar__button {
+    padding:5px 8px;
+    border-radius:35%;
+    
+  }
+  
+  
+}
+
+@media only screen and (max-width: 350px){
+  .logo {
+    width: 45px;
+    margin-left: 10px ;
+  }
+  .link{
+    font-size: 11px;
+  }
+  .navbar__button {
+    padding:3px 5px;
+    
+    
+  }
+  
+}
+ 

@@ -1,0 +1,24 @@
+.light-bg{
+    background-color:  rgba(247, 220, 139, 0.5);
+  }
+  .dark-bg{
+    background-color: #047C7B;
+  }
+  .bg-yellow{
+    background-color: #cc7307;
+  }
+ 
+  .button-submit{
+    background-color: #cc7307 ;
+    border-radius: 8px;
+    border: #cc7307;
+    
+  }
+  #links {
+    transition: transform 0.3s ease-in-out;
+  }
+  #links:hover{
+    background-color: #047C7B;
+    
+    transform: scale(1.1);
+  }

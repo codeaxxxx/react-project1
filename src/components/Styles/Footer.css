@@ -1,0 +1,36 @@
+.footer {
+    background-color: #023636;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer__links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer__link {
+    margin: 0 15px;
+    text-decoration: none;
+    color: rgb(243, 240, 240);
+   
+  }
+  
+  .footer__link:hover {
+    color: #F7DC8B;
+  }
+  
+  /* Media query for screens with a maximum width of 767px (typical mobile size) */
+  @media (max-width: 767px) {
+    .footer__link {
+      margin: 10px 0;
+      width: 100%;
+    }
+  
+    .footer__links {
+      flex-direction: column; /* Stack the items vertically */
+      align-items: center; /* Center the items horizontally */
+    }
+  }
+  

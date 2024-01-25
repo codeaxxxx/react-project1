@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+  }
+  
+  .home {
+    width: 100%;
+    padding: 0;
+    overflow: hidden; /* Ensure the image doesn't overflow the container */
+  }
+  
+  .home .full {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    min-height: 300px; /* Set a minimum height */
+    object-fit: cover; /* Maintain aspect ratio and cover container */
+  }
+  .light-bg{
+    background-color:  rgba(247, 220, 139, 0.5);
+  }
+  .dark-bg{
+    background-color: #047C7B;
+  }
+  .bg-yellow{
+    background-color: #cc7307;
+  }
+  
+  .home-btn{
+    background-color: #cc7307;
+    color: white;
+    padding: 10px 50px ;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    border: white solid;
+    font-size: 25px ;
+    text-decoration: none;
+  }
+  .home-btn:hover{
+    color: #047C7B;
+    background-color: rgba(247, 220, 139, 0.5) ;
+    border: solid 1px #047C7B;
+  }
+  .swiper-img {
+    width: 100%;
+    height: 80%; 
+    cursor: grabbing;
+  }
+  
+  @media (max-width: 576px) {
+    
+    .card  {
+     width: 280px;
+     margin: 15px auto;
+     
+     
+    }
+    .home-btn{
+     
+      padding: 10px 18px ;
+      border-radius: 8px;
+      font-size: 15px ;
+     
+    }
+  }
+  @media (max-width: 350px) {
+    .home .full {
+      min-height: 250px; 
+      
+    }
+    .home-btn{
+     
+      padding: 8px 15px ;
+      border-radius: 8px;
+      font-size: 12px ;
+     
+    }
+}
