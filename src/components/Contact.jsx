@@ -6,11 +6,11 @@ import "./Styles/ServicesPage.css"
 const Contact = () => {
   return (
     <div className="container-lg p-3">
-        <p className="sub-text mt-5 mx-3 text-center">Welcome to Reve Esthetique! We're delighted to connect with you and provide a seamless way for you to reach out to us.</p>
+        <p className="sub-text2 mt-5 mx-3 text-center">Welcome to Reve Esthetique! We're delighted to connect with you and provide a seamless way for you to reach out to us.</p>
 
       <div className="row justify-content-center">
         <div className="col-md-7 bg-yellow text-center rounded shadow">
-          <p className="title-text text-light mt-5 mx-3 fw-bold">OUR LOCATION</p>
+          <p className="title-text text-light mt-5 mx-3 ">OUR LOCATION</p>
           <p className="text-center  para-text text-light px-3"> Here, you'll find our business location beautifully displayed on Google Maps, making it easy for you to locate us. Feel free to explore the interactive map to plan your visit.</p>
 
 
@@ -53,7 +53,7 @@ const Contact = () => {
 
         </div>
         <div className="col-md-5 light-bg px-3 rounded shadow">
-        <p className="title-text text-center mt-5 mx-3 fw-bold">CONTACT US</p>
+        <p className="title-text text-center mt-5 mx-3 ">CONTACT US</p>
         <p className="text-center fw-bol  para-text"> If you have any inquiries or would like to send us a message, our contact form is at your service.</p>
         <form className="mt-4" action="https://api.web3forms.com/submit" method="POST" >
             <input type="hidden" name="access_key" value="a8f24981-257f-4415-b977-ac4ac4159eca"/>

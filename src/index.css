@@ -5,7 +5,11 @@
   font-weight: normal;
   src: url(./components/fonts/Higuen.otf);
 }
-
+@font-face{
+  font-family: secFont;
+  font-weight: normal;
+  src: url(./components/fonts/Maharlika.ttf);
+}
 ::-webkit-scrollbar {
   width: 0.5rem;
   background: #F7DC8B;
@@ -29,24 +33,24 @@ body{
 
 .q-text{
   font-size: 23px;
-  font-family: mainFont;
+  font-family: secFont;
   color: #814b09 ;
   font-weight: 400;
   
 }
 .sub-text{
   font-size: 45px;
-  font-family: mainFont;
+  font-family: secFont;
   color: #814b09 ;
 }
 .sub-text2{
-  font-size: 20px;
-  font-family: mainFont;
+  font-size: 30px;
+  font-family: secFont;
   color: #814b09 ;
 }
 .para-text{
   font-size: 20px;
-  font-family: mainFont;
+  font-family: secFont;
   text-align: justify;
   color: #814b09 ;
 }
