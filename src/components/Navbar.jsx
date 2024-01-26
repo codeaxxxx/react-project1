@@ -24,7 +24,7 @@ const Navbar = () => {
       </div>
       <div className="navbar__button">
         <NavLink to="/Calendar" className="link-book" >
-          <span className="line">Book Now</span>
+          <span className="line para-text">Book Now</span>
           <i className="bi bi-bookmark-plus-fill book-icon"></i>
         </NavLink>
       </div>

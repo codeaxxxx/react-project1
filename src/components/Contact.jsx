@@ -10,8 +10,8 @@ const Contact = () => {
 
       <div className="row justify-content-center">
         <div className="col-md-7 bg-yellow text-center rounded shadow">
-          <p className="title-text text-light mt-5 mx-3">Our Location</p>
-          <p className="text-center fst-italic para-text text-light px-3"> Here, you'll find our business location beautifully displayed on Google Maps, making it easy for you to locate us. Feel free to explore the interactive map to plan your visit.</p>
+          <p className="title-text text-light mt-5 mx-3 fw-bold">OUR LOCATION</p>
+          <p className="text-center  para-text text-light px-3"> Here, you'll find our business location beautifully displayed on Google Maps, making it easy for you to locate us. Feel free to explore the interactive map to plan your visit.</p>
 
 
           <div style={{ maxWidth: '100%' , padding: '20px' }}>
@@ -30,7 +30,7 @@ const Contact = () => {
 
 
           <div className="text-center mx-3 mb-5">
-            <p className=" text-center fw-bol fst-italic para-text text-light"> Stay connected with us on social media through the provided links, where we share the latest updates, promotions, and engaging content.</p>
+            <p className=" text-center  para-text text-light"> Stay connected with us on social media through the provided links, where we share the latest updates, promotions, and engaging content.</p>
             <div className="justify-content-center px-3">
 
               <a href="https://www.instagram.com/reve_esthetique/" id="links" class="text-light text-decoration-none para-text text-center my-2 light-bg rounded-pill py-1 d-block" target="_blank" rel="noopener noreferrer">
@@ -53,8 +53,8 @@ const Contact = () => {
 
         </div>
         <div className="col-md-5 light-bg px-3 rounded shadow">
-        <p className="title-text text-center mt-5 mx-3">Contact Us</p>
-        <p className="text-center fw-bol fst-italic para-text"> If you have any inquiries or would like to send us a message, our contact form is at your service.</p>
+        <p className="title-text text-center mt-5 mx-3 fw-bold">CONTACT US</p>
+        <p className="text-center fw-bol  para-text"> If you have any inquiries or would like to send us a message, our contact form is at your service.</p>
         <form className="mt-4" action="https://api.web3forms.com/submit" method="POST" >
             <input type="hidden" name="access_key" value="a8f24981-257f-4415-b977-ac4ac4159eca"/>
             <div className="mb-3">

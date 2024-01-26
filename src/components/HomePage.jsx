@@ -44,10 +44,10 @@ const HomePage = () => {
         <img src={BG} alt="" className="full" />
       </div>
       <div className="mt-3 px-5">
-        <p className="para-text text-center fw-bold">
+        <p className="para-text text-center">
           Creating a space where beauty knows no boundaries, and every individual feels empowered, confident, and celebrated. We specialize in providing services for nails, skin, and lashes to help you attain a youthful radiance
         </p>
-        <h1 className="title-text text-center">Spa Hours</h1>
+        <h1 className="title-text text-center fw-bold">SPA HOURS</h1>
         <h5 className="para-text fw-bold text-center m-2">MONDAY: CLOSED</h5>
         <h5 className="para-text fw-bold text-center m-2">TUESDAY - FRIDAY: 1PM - 9PM</h5>
         <h5 className="para-text fw-bold text-center m-2">SATURDAY - SUNDAY: 10AM - 6PM</h5>
@@ -55,7 +55,7 @@ const HomePage = () => {
       <div className="light-bg py-3 bg-yellow mt-5">
         <h4 className="sub-text text-light text-center">RÊVE ESTHÉTIQUE</h4>
       </div>
-      <h5 className="title-text text-center mt-5">Welcome to our gender-neutral oasis of aesthetic excellence!</h5>
+      <h5 className="title-text text-center mt-5 fw-bold">Welcome to our gender-neutral oasis of aesthetic excellence!</h5>
       <div className="container-lg content-center">
         <div className="container-lg mt-5 p-1">
           <Swiper
@@ -103,8 +103,8 @@ const HomePage = () => {
         </div>
       </div>
       <div className="m-5 text-center">
-        <h5 className="q-text fw-bold text-center">Beauty knows no gender here— as we're on a mission to boost confidence, self-expression, and redefine beauty norms.</h5>
-        <h5 className="text-center title-text mb-4">Embrace your unique beauty journey with us!</h5>
+        <h5 className="q-text fw-bold text-center ">Beauty knows no gender here— as we're on a mission to boost confidence, self-expression, and redefine beauty norms.</h5>
+        <h5 className="text-center title-text mb-4 fw-bold">Embrace your unique beauty journey with us!</h5>
         <Link to="/Calendar" className="home-btn ">Book an Appointment Now! </Link>
       </div>
     </>
